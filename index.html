@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Product Landing Page</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <!-- <link rel="stylesheet" href="./productLandingPageStyle.css"> -->
+
+  <link rel="stylesheet" href="./styleSheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+
+
+  <header>
+    <div class="container-nav">
+      <div class="logo-container">
+        <img id="logo-img" src="http://www.vintagehificlub.com/wp-content/uploads/2013/07/nad-logo.jpg" alt="logo">
+      </div>
+      <nav id="nav-bar">
+        <ul class="nav-links">
+          <li><a class="nav-link" href="#features">FEATURES</a></li>
+          <li><a class="nav-link" href="#product">PRODUCT</a></li>
+          <li><a class="nav-link" href="#reviews">REVIEWS</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<main>
+  <form id="form" class="form-container" action="https://www.freecodecamp.com/email-submit" >
+      <div class="form-group">
+        <h1>SUBSCRIBE TO NEWSLETTER</h1>
+        <label id="email-label" for="email">
+          <input type="email" name="email" id="email" class="form-control" placeholder="Enter your e-mail" required />
+          <button class="submit-button">SUBSCRIBE</button>
+        </label>
+        
+      </div>
+  </form>
+
+  <div class="container-features">
+    <div class="features-info">
+      <div class="grid">
+        <div class="icon icon1"><i class="fas fa-fire"></i></div>
+        <div class="info">
+          <h2>UNMATCHED PERFORMANCE</h2>
+          <p>The M10 uses NAD’s most sophisticated Masters Series technology to create a sonic performance that is
+            second
+            to none. 
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon icon2"><i class="fas fa-podcast"></i></div>
+        <div class="info">
+          <h2>EASY SMART HOME INTEGRATION</h2>
+          <p>Fully compatible with today’s leading smart home systems
+            from companies such as Apple, and many others. Seamlessly
+            control your BluOS multi-room music system from a common interface.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon icon3"><i class="fas fa-microphone-alt"></i></div>
+        <div class="info">
+          <h2>HANDS-FREE VOICE CONTROL WITH ALEXA</h2>
+          <p>Add the BluOS Voice Skill inside the Amazon Alexa app and enjoy hands-free voice control.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="product-img">
+      <img src="./Nad M-10.jpg" alt="M10" />
+    </div>
+  </div>
+    
+  <div class="product-video">
+    <h3>PRODUCT VIDEO</h3>
+    <section id="product" class="container iframe">
+      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/-O6mAa50tnU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+  </div>
+
+  <div class="reviews-container">
+    <h3>REVIEWS</h3>
+    <section id="reviews">
+      <div class="review">
+        <input type="checkbox" class="read-more-state" id="post-1" />
+        <h4>Much better than I had hoped.</h4>
+        <h5>From Fruita, CO on 9/18/2019</h5>
+        <p class="read-more-wrap">After 45 years of chasing the ultimate audio reproduction, I've finally chosen to
+            act my age and make a purchase based on beauty, convenience, practicality and value for a change.<span
+              class="read-more-target"> To that end I decided to favor a lifestyle sort of product because I appreciated
+                it's convenience and because I have always known NAD to be a terrific value. Do yourself a favor and check
+                it out in your own home.</span></p>
+        <label for="post-1" class="read-more-trigger"></label>
+  
+      </div>
+      <div class="review">
+        <input type="checkbox" class="read-more-state" id="post-2" />
+        <h4>NAD M10 Masters Series</h4>
+        <h5>From Westerville, OH on 9/22/2019</h5>
+        <p class="read-more-wrap">Extremely flexible, great power. It drives my Maggie's effortlessly! I love the
+            simplicity of having a single "box" that blends my audiophile demands with video needs, a hdmiac cable
+            from<span class="read-more-target"> TV to NAD merges for fantastic sound while viewing and allows volume
+                control through TV remote.</span></p>
+        <label for="post-2" class="read-more-trigger"></label>
+      </div>
+      <div class="review">
+        <input type="checkbox" class="read-more-state" id="post-3" />
+        <h4>Detailed Sound!</h4>
+        <h5>DANA from Vermont on 9/10/2019</h5>
+        <p class="read-more-wrap">The NA M10 will be working in a matter of minutes. It updates automatically and
+            quickly with the app. The App. on the iPhone is super easy to use and control the M10. 
+          <span class="read-more-target">The M10 gets warm, but never gets really hot. I only stream from Qobuz and Tidal. The speakers
+                made all the difference. The M10 is good enough to reveal the quality of the source material. For the
+                price, I don't think you can go wrong for this compact an all in one unit if you want to stream hi res
+                audio.</span></p>
+        <label for="post-3" class="read-more-trigger"></label>
+      </div>
+    </section>
+  </div>
+  <footer id="footer">
+    <ul class="footer-links">
+      <li><a class="footer-link" href="#">Privacy</a></li>
+      <li><a class="footer-link" href="#">Terms</a></li>
+      <li><a class="footer-link" href="#">Contact</a></li>
+    </ul>
+    <span class="copyright">Copyright 2020, NAD</span>
+  </footer> 
+</main>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
