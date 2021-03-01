@@ -17,6 +17,7 @@ header {
     z-index: 99;
     background-color: rgb(2, 2, 2);
     width: 95%;
+    
 } 
 
 .container-nav {
@@ -83,13 +84,10 @@ input {
   color: #212121;
 }
 .container-features {
-    width: 95%;
-    margin: 50px;
+    width: 90%;
     display: flex;
     justify-content: space-between;
-    width: 90%;
-    margin: o;
-    align-items: center;
+    margin: 0 auto;
     
 }
 
@@ -249,8 +247,18 @@ footer span {
     padding-bottom: 0.5em;
     font-size: .5rem;
 }
-
+@media screen and (max-width: 768px) {
+    header {
+        width: auto;
+        height: 60px;
+    }
+    #logo-img{
+        width: 45px;
+        margin: 5px;
+    }
+}
 @media screen and (max-width: 1024px) {
+    
     .icon {
         font-size: 1rem;
     }
@@ -266,7 +274,7 @@ footer span {
     }
     .nav-link {
         font-size: .5rem;
-        padding-right: 10px
+        padding-right: 10px;
     }
     .form-group {
         padding-top: 80px;
