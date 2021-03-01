@@ -90,7 +90,6 @@ input {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    
 }
 
 .features-info {
@@ -121,7 +120,7 @@ input {
   }
 h2, p {
   font-size: 1rem;
-  margin-left: 4em;
+  margin-left: 40px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -133,10 +132,13 @@ h3 {
     color: #fff;
     margin: 40px;
   }
+  h5 {
+    font-size: 1rem;
+    padding-bottom: 5px;
+}
 .container {
     padding-top: 0.5em;
     padding-bottom: 0.3em;
-   
     margin: 0 auto;
     position: relative;
   } 
@@ -265,22 +267,16 @@ footer span {
         font-size: 1rem;
 
     }
-    h1, h4 {
+    h1, h2, h4  {
         font-size: .75rem;
-    }
-    h2 {
-        font-size: .55rem;
-        text-align: center;
-        margin: 0;
     }
     h3 {
         font-size: .75rem;
         margin: 20px;
     }
-    
     h5, p {
-        font-size: .50rem;
-        margin: 0;
+        font-size: .75rem;
+        padding-bottom: 5px;
     }
     .container-nav {
         padding: 0;
