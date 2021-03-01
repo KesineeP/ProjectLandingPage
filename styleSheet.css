@@ -17,6 +17,7 @@ header {
     z-index: 99;
     background-color: rgb(2, 2, 2);
     width: 95%;
+    
 } 
 
 .container-nav {
@@ -57,10 +58,12 @@ nav {
     flex-direction: column;
     align-items: center;
     padding-top: 100px;
+    margin-bottom: 20px;
 }
 h1 {
     font-size: .8rem;
     font-weight: 700;
+    text-align: center;
 }  
 input {
     border-radius: 5px;
@@ -83,13 +86,10 @@ input {
   color: #212121;
 }
 .container-features {
-    width: 95%;
-    margin: 50px;
+    width: 90%;
     display: flex;
     justify-content: space-between;
-    width: 90%;
-    margin: o;
-    align-items: center;
+    margin: 0 auto;
     
 }
 
@@ -249,27 +249,48 @@ footer span {
     padding-bottom: 0.5em;
     font-size: .5rem;
 }
-
+@media screen and (max-width: 768px) {
+    header {
+        width: auto;
+        height: 60px;
+    }
+    #logo-img{
+        width: 45px;
+        margin: 5px;
+    }
+}
 @media screen and (max-width: 1024px) {
+    
     .icon {
         font-size: 1rem;
+
+    }
+    h1, h4 {
+        font-size: .75rem;
+    }
+    h2 {
+        font-size: .55rem;
+        text-align: center;
+        margin: 0;
     }
     h3 {
         font-size: .75rem;
         margin: 20px;
     }
-    h1, h2, h4, p {
-        font-size: .75rem;
+    
+    h5, p {
+        font-size: .50rem;
+        margin: 0;
     }
     .container-nav {
         padding: 0;
     }
     .nav-link {
         font-size: .5rem;
-        padding-right: 10px
+        padding-right: 10px;
     }
     .form-group {
-        padding-top: 70px;
+        padding-top: 80px;
     }
     .container-features {
         flex-direction: column;
