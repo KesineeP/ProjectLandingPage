@@ -40,6 +40,11 @@
           <li><a class="nav-link" href="#product">PRODUCT</a></li>
           <li><a class="nav-link" href="#reviews">REVIEWS</a></li>
         </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
       </nav>
     </div>
   </header>
@@ -56,7 +61,7 @@
       </div>
     </form>
 
-    <div class="container-features">
+    <div class="container-features" id="features">
       <div class="features-info">
         <div class="grid">
           <div class="icon icon1"><i class="fas fa-fire"></i></div>
@@ -93,8 +98,8 @@
     </div>
 
     <div class="product-video">
-      <h3>PRODUCT VIDEO</h3>
-      <section id="product" class="container iframe">
+      <h3 id="product">PRODUCT VIDEO</h3>
+      <section class="container iframe">
         <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/-O6mAa50tnU" frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </section>
@@ -157,6 +162,7 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <script src="index.js"></script>
 </body>
 
 </html>
